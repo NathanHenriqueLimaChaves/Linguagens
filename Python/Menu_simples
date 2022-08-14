@@ -1,0 +1,9 @@
+#ABREC ATENDENTE
+
+cod_adm = int(input("Digite o código do administrador: "))
+orientacoes = str(input("Digite suas orientações: "))
+cfp = str(input("Digite o seu CFP: "))
+crn = str(input("Digite o seu CRN "))
+crefito = str(input("Digite o seu CREFITO: "))
+cres = str(input("Digite o seu CRES: "))
+print(cod_adm,"\n",orientacoes,"\n",cfp,"\n",crn,"\n",crefito,"\n",cres)
