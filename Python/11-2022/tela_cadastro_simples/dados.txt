@@ -1,0 +1,3 @@
+Nathan Henrique Lima Chaves,24,06534578990,Serra do Divisor,Jardim Talismã,9000,79089789,filhos: não,sozinho: não,doença: não,MS
+Ana Clara,11,23456732112,Ceara ,São Francisco,345,79014567,filhos: não,sozinho: não,doença: não,MS
+Maria Trizz,31,45609089076,São Leopoldo,Jardim Vieira,1124,79015678,filhos: sim,sozinho: sim,doença: não,PR
