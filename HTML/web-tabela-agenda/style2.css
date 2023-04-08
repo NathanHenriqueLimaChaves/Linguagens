@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lateral, .principal{
+    display: inline-block;
+}
+
+.lateral{
+    height: 100%;
+    background-color: black;
+    position: fixed; /*fixa o header lá em cima. Se rolar a página, o header rola junto*/
+    width: 10%;
+
+}
+
+.menu li{
+    color: white;
+    text-align: center;
+    padding: 85px 15px;
+    transition: 1s; /*faz uma transição de 1s. No caso, para o hover*/
+}
+
+.menu li:hover{
+    background-color: lightcyan;
+    color: black;
+    padding: 100px 25px;
+}
+
+.principal{
+    background-color: blanchedalmond;
+    float: right;
+    margin-left: 10%;
+    width: 90%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead{
+    background-color: rgb(50, 50, 228);
+}
+
+p{
+    display: inline-block;
+    color: white;
+    padding: 3px 20px;
+}
+
+#coluna1{
+    color: white;
+    background-color: rgb(50, 50, 228);
+    transition: 0.7s;
+}
+
+#coluna1:hover{
+    color: black;
+    background-color: rgb(216, 147, 20);
+}
+
+#linhacor1{
+    background-color: rgb(69, 69, 173);
+}
+
+#linhacor1:hover{
+    background-color: rgb(69, 69, 173);
+    border-color: blanchedalmond;
+}
+
+#linhacor2{
+    background-color: aliceblue;
+}
+
+#linhacor2:hover{
+    background-color: aliceblue;
+    border-color: blanchedalmond;
+}
+
+#tabela{
+    margin: 50px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead,th,tr,td{
+    border: 2px solid black;
+    padding: 25px;
+}

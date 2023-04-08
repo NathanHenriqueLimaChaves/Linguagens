@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    background-color: black;
+    position: sticky; /*fixa o header lá em cima. Se rolar a página, o header rola junto*/
+    top: 0;
+
+}
+
+.menu li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    transition: 1s; /*faz uma transição de 1s. No caso, para o hover*/
+}
+
+.menu li:hover{
+    background-color: lightcyan;
+    color: black;
+    padding: 5px 25px;
+}
+
+main{
+    height: 850px;
+    background-color: rgb(105, 80, 17);
+    text-align: center;
+}
+
+#tabela thead,th,tr,td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#tabela{
+    width: 50%;
+    margin: 30px auto;
+    background-color: antiquewhite;
+    border-collapse: collapse; /*faz as bordas se juntarem*/
+}
+
+thead,td{
+    height: 30px;
+    transition: 0.8s;
+}
+
+td:hover{
+    background-color: orange;
+}
