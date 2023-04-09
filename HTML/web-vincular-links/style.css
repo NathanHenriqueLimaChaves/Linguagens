@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 130px;
+    background-color: rgb(29, 98, 159);
+}
+
+header img{
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#logo{
+    float: left;
+}
+
+#buscar{
+    float: right;
+}
+
+#buscar input{
+    width: 400px;
+    height: 50px;
+    padding: 12px;
+    margin-right: 725px;
+    margin-top: 30px;
+    border-radius: 0.8em;
+    border: none;
+}
+
+
+nav{
+    height: 70px;
+    background-color: rgb(233, 181, 27);
+    padding: 10px;
+    text-align: center;
+}
+
+#container{
+    padding: 20px;
+}
+
+.menu{
+    background-color: rgb(54, 115, 167);
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu:hover{
+    background-color: rgb(255, 208, 63);
+    color: black;
+}
+
+main{
+    background-color: #186d7c;
+    height: 650px;
+    padding: 25px;
+}
+
+#section1{
+    background-color: rgb(57, 76, 123);
+    height: 600px;
+    width: 60%;
+    float: left;
+}
+
+#article1{
+    height: 200px;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 4%;
+    margin: 30px auto;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+#article2{
+    height: 200px;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 4%;
+}
+
+#section2{
+    background-color: rgb(57, 76, 123);
+    height: 600px;
+    width: 37%;
+    float: right;
+}
+
+iframe{
+    height: auto;
+    width: auto;
+}
+
+#article3{
+    height: 200px;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 4%;
+}
+
+#article4{
+    height: 200px;
+    width: 60%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 4%;
+}
+
+footer{
+    background-color: rgb(29, 98, 159);
+    height: 120px;
+}
